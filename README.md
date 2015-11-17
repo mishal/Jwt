@@ -1,5 +1,9 @@
 # JWT – (JSON Web Token) for PHP
 
+[![Build Status](https://travis-ci.org/mishal/jwt.svg)](https://travis-ci.org/mishal/jwt)
+[![Downloads](https://img.shields.io/packagist/dm/mishal/jwt.svg)](https://packagist.org/packages/mishal/jwt)
+[![Latest release](https://img.shields.io/packagist/v/mishal/jwt.svg)](https://github.com/mishal/jwt/releases) 
+
 A Php implementation of [JSON Web Token](https://tools.ietf.org/html/rfc7519).
 
 ## Installing
