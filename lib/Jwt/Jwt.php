@@ -222,6 +222,9 @@ final class Jwt
         );
     }
 
+    /**
+     * @param Header $header
+     */
     private static function getAlgorithm($header)
     {
         if (!isset($header['alg'])) {
@@ -264,6 +267,9 @@ final class Jwt
         return $verifyWith;
     }
 
+    /**
+     * @param string $token
+     */
     private static function getTokenParts($token)
     {
         $parts = explode('.', $token);
