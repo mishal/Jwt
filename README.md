@@ -11,7 +11,7 @@ A Php implementation of [JSON Web Token](https://tools.ietf.org/html/rfc7519).
 ### Install with composer
 
 ```
-$ composer install mishal/jwt
+$ composer require mishal/jwt
 ```
 
 ## Algorithms and Usage
